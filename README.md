@@ -5,7 +5,7 @@ Openposeの既存モデルに対してファインチューニングを行い、
 自動アニメーション生成器を作成するためにイラストの姿勢推定を行う必要であったが、既存の姿勢推定器であるOpenposeは現実世界の人間のデータセットを用いて作成されているためイラストのキャラクターでは精度が低くなってしまっている。そのため、イラストでオリジナルのデータセットを自作し、Openposeの既存モデルに対してFinetuningを行いました。その結果0.47から0.68に精度を向上させることに成功しました。
 
 ## データセット
-Tagged Anime Illustrationsのキャラクター画像に対してCOCO keypoint challenge datasetをもとにアノテーション情報を手打ちで3300枚(train:2700,val:300,test300)作成しました。データセット作成用のプログラムは別のリポジトリ内に配置しております。マスクデータは50px四方のマスクを作成し、使用しております。dropboxからダウンロードし、dataフォルダとして活用してください。COCO keypoint challenge datasetは元サイトにてダウンロードをしてください。(https://cocodataset.org/#keypoints-2016)
+Tagged Anime Illustrationsのキャラクター画像に対してCOCO keypoint challenge datasetをもとにアノテーション情報を手打ちで3300枚(train:2700,val:300,test300)作成しました。データセット作成用のプログラムは別のリポジトリ内に配置しております。マスクデータは50px四方のマスクを作成し、使用しております。dropbox(<https://www.dropbox.com/s/mc1z9sl5vym06a1/data.zip?dl=0>)からダウンロードし、dataフォルダとして活用してください。COCO keypoint challenge datasetは元サイトにてダウンロードをしてください。(<https://cocodataset.org/#keypoints-2016>)
 
 ## 結果
 * 元画像(左)、ファインチューニング前(中央)、ファインチューニング後(右)のテスト比較画像
