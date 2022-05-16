@@ -1,7 +1,7 @@
 # ILLUSTPOSE　-OpenPoseFinetuning-
 Openposeの既存モデルに対してファインチューニングを行い、イラストに対しての姿勢推定の精度を向上させたモデルを作成するためのリポジトリです。
 
-##IllustPose概要
+##　IllustPose概要
 
 小川雄太郎氏による「つくりながら学ぶ！PytTorchによる発展ディープラーニング」のOpenPoseを参考に作成を行いました。
 
