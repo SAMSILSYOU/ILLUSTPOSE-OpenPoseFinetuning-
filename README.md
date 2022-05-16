@@ -19,8 +19,8 @@ Tagged Anime Illustrationsのキャラクター画像に対してCOCO keypoint c
 
 Created with reference to OpenPose by YutaroOgawa/pytorch_advanced. Reference: https://github.com/YutaroOgawa/pytorch_advanced
 
-元のイラストデータセット（Tagged Anime Illustrations）
+元のイラストデータセット（Tagged Anime Illustrations: 
 https://www.kaggle.com/datasets/mylesoneill/tagged-anime-illustrations
 
-COCO keypoint challenge dataset
+COCO keypoint challenge dataset: 
 https://cocodataset.org/#keypoints-2016
