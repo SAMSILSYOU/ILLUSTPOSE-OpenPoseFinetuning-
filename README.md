@@ -11,6 +11,7 @@ Tagged Anime Illustrationsのキャラクター画像に対してCOCO keypoint c
 データセット作成用のプログラムは別のリポジトリ内に配置しております。
 
 マスクデータは50px四方のマスクを作成し、使用しております。
+
 ![MaskImg](https://user-images.githubusercontent.com/105159848/168655122-559f2bc0-1e06-4e8e-90a7-07a15c741879.jpg)
 
 dropbox(<https://www.dropbox.com/s/mc1z9sl5vym06a1/data.zip?dl=0>)からダウンロードし、dataフォルダとして活用してください。COCO keypoint challenge datasetは元サイトにてダウンロードをしてください。(<https://cocodataset.org/#keypoints-2016>)
