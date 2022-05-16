@@ -16,6 +16,13 @@ Tagged Anime Illustrationsのキャラクター画像に対してCOCO keypoint c
 
 dropbox(<https://www.dropbox.com/s/mc1z9sl5vym06a1/data.zip?dl=0>)からダウンロードし、dataフォルダとして活用してください。COCO keypoint challenge datasetは元サイトにてダウンロードをしてください。(<https://cocodataset.org/#keypoints-2016>)
 
+## 使い方
+IllustPoseディレクトリ内でdataファイル(<https://www.dropbox.com/s/mc1z9sl5vym06a1/data.zip?dl=0>)とweightファイル(<https://www.dropbox.com/s/681x9lq3n3ia8rx/weights.zip?dl=0>)の解凍を行ってください。必要なライブラリを各自インポートしてください。
+
+illustpose_train.pyを実行することで元モデルであるpose_model_scratch.pthに対してファインチューニングを行うことができます。
+
+illustpose_test.pyを実行することで指定したモデルで任意の画像の姿勢推定の結果画像を表示させます。
+
 ## 結果
 * 元画像(左)、ファインチューニング前(中央)、ファインチューニング後(右)のテスト比較画像
 ![1](https://user-images.githubusercontent.com/105159848/168654651-ff4eb521-a6b9-436b-86c0-1fe5f8aabeab.png)
