@@ -10,6 +10,8 @@ Tagged Anime Illustrationsのキャラクター画像に対してCOCO keypoint c
 ## 結果
 * 元画像(左)、ファインチューニング前(中央)、ファインチューニング後(右)のテスト比較画像
 * 複雑なポーズのキャラクター
+![1](https://user-images.githubusercontent.com/105159848/168654651-ff4eb521-a6b9-436b-86c0-1fe5f8aabeab.png)
+
 * 複雑な衣装のキャラクター
 * 後ろ向きのキャラクター
 * モノトーン調のキャラクター
